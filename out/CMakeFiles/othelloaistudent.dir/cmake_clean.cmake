@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o"
+  "CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o"
   "lib/libothelloaistudent.pdb"
   "lib/libothelloaistudent.a"
 )

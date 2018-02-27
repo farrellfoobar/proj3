@@ -72,13 +72,17 @@ memory
 OthelloBoard.hpp
 ../include/othellogame/OthelloBoard.hpp
 
-/home/ics46/projects/proj3/core/myOthelloAI.cpp
+/home/ics46/projects/proj3/core/MyOthelloAI.cpp
 ics46/factory/DynamicFactory.hpp
 -
-myOthelloAI.hpp
-/home/ics46/projects/proj3/core/myOthelloAI.hpp
+MyOthelloAI.hpp
+/home/ics46/projects/proj3/core/MyOthelloAI.hpp
+iostream
+-
+stdlib.h
+-
 
-/home/ics46/projects/proj3/core/myOthelloAI.hpp
+/home/ics46/projects/proj3/core/MyOthelloAI.hpp
 OthelloAI.hpp
 /home/ics46/projects/proj3/core/OthelloAI.hpp
 

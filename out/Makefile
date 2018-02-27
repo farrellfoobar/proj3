@@ -189,32 +189,32 @@ app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-core/myOthelloAI.o: core/myOthelloAI.cpp.o
+core/MyOthelloAI.o: core/MyOthelloAI.cpp.o
 
-.PHONY : core/myOthelloAI.o
+.PHONY : core/MyOthelloAI.o
 
 # target to build an object file
-core/myOthelloAI.cpp.o:
-	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o
-.PHONY : core/myOthelloAI.cpp.o
+core/MyOthelloAI.cpp.o:
+	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o
+.PHONY : core/MyOthelloAI.cpp.o
 
-core/myOthelloAI.i: core/myOthelloAI.cpp.i
+core/MyOthelloAI.i: core/MyOthelloAI.cpp.i
 
-.PHONY : core/myOthelloAI.i
+.PHONY : core/MyOthelloAI.i
 
 # target to preprocess a source file
-core/myOthelloAI.cpp.i:
-	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.i
-.PHONY : core/myOthelloAI.cpp.i
+core/MyOthelloAI.cpp.i:
+	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.i
+.PHONY : core/MyOthelloAI.cpp.i
 
-core/myOthelloAI.s: core/myOthelloAI.cpp.s
+core/MyOthelloAI.s: core/MyOthelloAI.cpp.s
 
-.PHONY : core/myOthelloAI.s
+.PHONY : core/MyOthelloAI.s
 
 # target to generate assembly for a file
-core/myOthelloAI.cpp.s:
-	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.s
-.PHONY : core/myOthelloAI.cpp.s
+core/MyOthelloAI.cpp.s:
+	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.s
+.PHONY : core/MyOthelloAI.cpp.s
 
 exp/expmain.o: exp/expmain.cpp.o
 
@@ -285,9 +285,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... core/myOthelloAI.o"
-	@echo "... core/myOthelloAI.i"
-	@echo "... core/myOthelloAI.s"
+	@echo "... core/MyOthelloAI.o"
+	@echo "... core/MyOthelloAI.i"
+	@echo "... core/MyOthelloAI.s"
 	@echo "... exp/expmain.o"
 	@echo "... exp/expmain.i"
 	@echo "... exp/expmain.s"

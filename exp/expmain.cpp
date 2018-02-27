@@ -13,13 +13,13 @@
 
 int main()
 {
-	std::pair<int, int> p1 = {1, 3};
-	std::pair<int, int> p2 = {2, 4};
-
-	std::pair<int, int> p3 = p1+p2;
-
-	std::cout << p3.first << ", " << p3.second;
+	int depth = 0;
+	if( depth <= 0 )
+	{
+		std::cout << "wat" << std::endl;
+	}
 
     return 0;
 }
+
 

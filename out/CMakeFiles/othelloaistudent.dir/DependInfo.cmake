@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ics46/projects/proj3/core/myOthelloAI.cpp" "/home/ics46/projects/proj3/out/CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o"
+  "/home/ics46/projects/proj3/core/MyOthelloAI.cpp" "/home/ics46/projects/proj3/out/CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

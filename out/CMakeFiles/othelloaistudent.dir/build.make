@@ -57,38 +57,38 @@ include CMakeFiles/othelloaistudent.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/othelloaistudent.dir/flags.make
 
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o: CMakeFiles/othelloaistudent.dir/flags.make
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o: ../core/myOthelloAI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46/projects/proj3/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o"
-	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o -c /home/ics46/projects/proj3/core/myOthelloAI.cpp
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o: CMakeFiles/othelloaistudent.dir/flags.make
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o: ../core/MyOthelloAI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46/projects/proj3/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o -c /home/ics46/projects/proj3/core/MyOthelloAI.cpp
 
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.i"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46/projects/proj3/core/myOthelloAI.cpp > CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.i
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46/projects/proj3/core/MyOthelloAI.cpp > CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.i
 
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.s"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46/projects/proj3/core/myOthelloAI.cpp -o CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.s
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46/projects/proj3/core/MyOthelloAI.cpp -o CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.s
 
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.requires:
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.requires:
 
-.PHONY : CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.requires
+.PHONY : CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.requires
 
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.provides: CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.requires
-	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.provides.build
-.PHONY : CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.provides
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.provides: CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.requires
+	$(MAKE) -f CMakeFiles/othelloaistudent.dir/build.make CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.provides.build
+.PHONY : CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.provides
 
-CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.provides.build: CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o
+CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.provides.build: CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o
 
 
 # Object files for target othelloaistudent
 othelloaistudent_OBJECTS = \
-"CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o"
+"CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o"
 
 # External object files for target othelloaistudent
 othelloaistudent_EXTERNAL_OBJECTS =
 
-lib/libothelloaistudent.a: CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o
+lib/libothelloaistudent.a: CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o
 lib/libothelloaistudent.a: CMakeFiles/othelloaistudent.dir/build.make
 lib/libothelloaistudent.a: CMakeFiles/othelloaistudent.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics46/projects/proj3/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib/libothelloaistudent.a"
@@ -100,7 +100,7 @@ CMakeFiles/othelloaistudent.dir/build: lib/libothelloaistudent.a
 
 .PHONY : CMakeFiles/othelloaistudent.dir/build
 
-CMakeFiles/othelloaistudent.dir/requires: CMakeFiles/othelloaistudent.dir/core/myOthelloAI.cpp.o.requires
+CMakeFiles/othelloaistudent.dir/requires: CMakeFiles/othelloaistudent.dir/core/MyOthelloAI.cpp.o.requires
 
 .PHONY : CMakeFiles/othelloaistudent.dir/requires
 
